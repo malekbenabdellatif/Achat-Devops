@@ -23,7 +23,6 @@ public class StockRestController {
 	@ResponseBody
 	public List<Stock> getStocks() {
 		List<Stock> list = stockService.retrieveAllStocks();
-		
 		return list;
 	}
 
